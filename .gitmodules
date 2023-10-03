@@ -1,0 +1,12 @@
+[submodule "ios/Alamofire"]
+	path = ios/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "ios/keychain-swift"]
+	path = ios/keychain-swift
+	url = https://github.com/evgenyneu/keychain-swift.git
+[submodule "ios/Moya"]
+	path = ios/Moya
+	url = https://github.com/Moya/Moya.git
+[submodule "ios/--force"]
+	path = ios/--force
+	url = https://github.com/Alamofire/Alamofire.git

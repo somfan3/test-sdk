@@ -26,6 +26,11 @@ if linkage != nil
 end
 
 target 'TestSDK' do
+  
+#  pod 'Alamofire'
+#  pod 'Moya', '~> 15.0'
+#  pod 'KeychainSwift', '~> 20.0'
+
   config = use_native_modules!
 
   # Flags change depending on the env values.
