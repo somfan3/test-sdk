@@ -45,6 +45,8 @@ public class MySignModule extends ReactContextBaseJavaModule {
         this.userID = userID;
         this.deviceID = deviceID;
 
+        System.out.println("INIT SDK WITH USER_ID: " + userID + " AND DEVICE_ID: " + deviceID);
+
         GoSignSDKSetup.initialize(application, "https://remotesigning.viettel.vn:8773/", "Unlock to register device");
 
         promise.resolve(true);
