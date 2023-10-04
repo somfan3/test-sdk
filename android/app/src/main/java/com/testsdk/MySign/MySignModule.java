@@ -55,7 +55,6 @@ public class MySignModule extends ReactContextBaseJavaModule {
         try {
             new MySignSDK.Builder()
                     .withUserId(userID)
-//                    .withDeviceId(deviceID)
                     .withToken(authToken)
                     .withActivity(MainActivity.getActivity()).withBiometricApiType(BiometricApiType.AUTO)
                     .registerDevice(new ServiceApiListener<>() {

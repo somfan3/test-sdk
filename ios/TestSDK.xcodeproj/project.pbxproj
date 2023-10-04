@@ -22,7 +22,7 @@
 		CC24ABE42ACCFCB700E4112D /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC24ABDE2ACCFCB700E4112D /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC24ABEE2ACD006900E4112D /* GoSignSDKLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA524342ACBC6E3007B6B16 /* GoSignSDKLite.xcframework */; };
 		CC24ABEF2ACD006900E4112D /* GoSignSDKLite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CCA524342ACBC6E3007B6B16 /* GoSignSDKLite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CCA524392ACBC75E007B6B16 /* RCTMySignModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA524372ACBC75E007B6B16 /* RCTMySignModule.m */; };
+		CC24ABF22ACD3EC000E4112D /* RCTMySignModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24ABF12ACD3EC000E4112D /* RCTMySignModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,10 +72,10 @@
 		CC24ABDC2ACCFCB700E4112D /* Moya.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Moya.xcframework; path = Framework/Moya.xcframework; sourceTree = "<group>"; };
 		CC24ABDD2ACCFCB700E4112D /* KeychainSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KeychainSwift.xcframework; path = Framework/KeychainSwift.xcframework; sourceTree = "<group>"; };
 		CC24ABDE2ACCFCB700E4112D /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Framework/Alamofire.xcframework; sourceTree = "<group>"; };
+		CC24ABF02ACD3EC000E4112D /* RCTMySignModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTMySignModule.h; path = TestSDK/RCTMySignModule.h; sourceTree = "<group>"; };
+		CC24ABF12ACD3EC000E4112D /* RCTMySignModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTMySignModule.m; path = TestSDK/RCTMySignModule.m; sourceTree = "<group>"; };
 		CCA524332ACBC6D1007B6B16 /* Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Framework; sourceTree = "<group>"; };
 		CCA524342ACBC6E3007B6B16 /* GoSignSDKLite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoSignSDKLite.xcframework; path = Framework/GoSignSDKLite.xcframework; sourceTree = "<group>"; };
-		CCA524372ACBC75E007B6B16 /* RCTMySignModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTMySignModule.m; path = ../../vcontract_noibo/scontract_mobile/ios/RCTMySignModule.m; sourceTree = "<group>"; };
-		CCA524382ACBC75E007B6B16 /* RCTMySignModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTMySignModule.h; path = ../../vcontract_noibo/scontract_mobile/ios/RCTMySignModule.h; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -123,8 +123,8 @@
 		13B07FAE1A68108700A75B9A /* TestSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CCA524382ACBC75E007B6B16 /* RCTMySignModule.h */,
-				CCA524372ACBC75E007B6B16 /* RCTMySignModule.m */,
+				CC24ABF02ACD3EC000E4112D /* RCTMySignModule.h */,
+				CC24ABF12ACD3EC000E4112D /* RCTMySignModule.m */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -458,7 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				CCA524392ACBC75E007B6B16 /* RCTMySignModule.m in Sources */,
+				CC24ABF22ACD3EC000E4112D /* RCTMySignModule.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
