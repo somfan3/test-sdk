@@ -45,7 +45,7 @@ public class MySignModule extends ReactContextBaseJavaModule {
         this.userID = userID;
         this.deviceID = deviceID;
 
-        GoSignSDKSetup.initialize(application, "https://remotesigning.viettel.vn:8773/", "Unlock to register device");
+        GoSignSDKSetup.initialize(application, "https://remotesigning.viettel.vn", "Unlock to register device");
 
         promise.resolve(true);
     }
@@ -55,7 +55,7 @@ public class MySignModule extends ReactContextBaseJavaModule {
         try {
             new MySignSDK.Builder()
                     .withUserId(userID)
-                    .withDeviceId(deviceID)
+//                    .withDeviceId(deviceID)
                     .withToken(authToken)
                     .withActivity(MainActivity.getActivity()).withBiometricApiType(BiometricApiType.AUTO)
                     .registerDevice(new ServiceApiListener<>() {
